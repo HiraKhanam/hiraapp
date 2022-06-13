@@ -9,9 +9,8 @@ export default function Tasks() {
   return (
     <div>
       <div>This is a parent component</div>
-      <Navbar />
-      <Footer />
     
+    {/* WHy? */}
     </div>
   );
 
