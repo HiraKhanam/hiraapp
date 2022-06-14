@@ -166,6 +166,9 @@ export default function index() {
           <li onClick={() => Router.push("/Home")} className="cursor-pointer font-bold">
             Page 2
           </li>
+          <li onClick={() => Router.push("/Practice")} className="cursor-pointer font-bold">
+            Page 3
+          </li>
         </ul>
       </nav>
     </>
