@@ -7,7 +7,7 @@ function index() {
         <nav className="w-full border-b">
           <div className="py-5 md:py-0 container mx-auto px-6 flex items-center justify-between">
             <div aria-label="Home. logo" role="img">
-              <img
+              <Image
                 className="w-12 md:w-auto"
                 src="https://tuk-cdn.s3.amazonaws.com/can-uploader/centre_aligned_simple-Svg1.svg"
                 alt="logo"
@@ -15,7 +15,7 @@ function index() {
             </div>
             <div>
               <button
-                onclick="toggleMenu(true)"
+                oncClick="toggleMenu(true)"
                 className="dark:bg-white rounded sm:block md:hidden text-gray-500 hover:text-gray-700 dark:text-gray-200 focus:text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500"
               >
                 <svg
@@ -38,7 +38,7 @@ function index() {
               </button>
               <div id="menu" className="md:block lg:block hidden">
                 <button
-                  onclick="toggleMenu(false)"
+                  onClick="toggleMenu(false)"
                   className="dark:bg-white rounded block md:hidden lg:hidden text-gray-500 hover:text-gray-700 dark:text-gray-200 focus:text-gray-700 dark:text-gray-200 fixed focus:outline-none focus:ring-2 focus:ring-gray-500 z-30 top-0 mt-6"
                 >
                   <svg
@@ -154,7 +154,7 @@ function index() {
           <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 pb-12 pt-20">
             <div className="w-full flex items-center justify-center flex-col">
               <div className="w-full px-5 -mb-10  relative z-40">
-                <img
+                <Image
                   src="https://i.ibb.co/85RFr5V/christina-wocintechchat-com-0-Zx1b-Dv5-BNY-unsplash-1.png"
                   alt="girl smilling"
                   className="w-full h-full rounded-md"
@@ -171,7 +171,7 @@ function index() {
             </div>
             <div className="w-full flex items-center justify-center flex-col">
               <div className="w-full px-5 -mb-10  relative z-40">
-                <img
+                <Image
                   src="https://i.ibb.co/fNyc2Tg/austin-distel-7uo-Mmz-Pd2-JA-unsplash-1.png"
                   alt="guy smilling"
                   className="w-full h-full rounded-md"
@@ -188,7 +188,7 @@ function index() {
             </div>
             <div className="w-full flex items-center justify-center flex-col">
               <div className="w-full px-5 -mb-10  relative z-40">
-                <img
+                <Image
                   src="https://i.ibb.co/F4pdTRP/michael-dam-m-EZ3-Po-FGs-k-unsplash-1.png"
                   alt="girl smilling"
                   className="w-full h-full rounded-md"
@@ -211,7 +211,7 @@ function index() {
             className="hidden container mx-auto flex justify-center items-center px-10 py-20"
           >
             <button
-              onclick="openModal()"
+              onClick="openModal()"
               className="text-gray-800 font-semibold border rounded-md bg-white py-5 px-10 focus:outline-none hover:bg-gray-200"
             >
               Show Modal
@@ -222,7 +222,7 @@ function index() {
               <div className="relative z-10 w-full">
                 <div className="flex flex-col justify-center pt-10 pb-12 px-4 md:px-10">
                   <div className="absolute top-5 right-5">
-                    <button onclick="closeModal()" />
+                    <button onClick="closeModal()" />
                   </div>
                   <p className="text-sm leading-none dark:text-white text-center md:pt-0 pt-3">
                     Try free for 30 days -{" "}
