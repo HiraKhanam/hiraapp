@@ -40,8 +40,6 @@ function index() {
     setUpdate("");
     setUpdateId("");
   };
-
-  console.log(items);
   return (
     <>
       <h2 className="text-neutral-700 font-extrabold text-5xl items-center justify-center mx-auto text-center">TO-DO-LIST</h2>
