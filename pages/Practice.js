@@ -1,10 +1,13 @@
 import react from "react";
 import Page3 from "../components/page3/index";
+import Header from "../components/Header/index";
 
 export default function Home() {
   return (
     <>
-      <Page3/>
+      <Page3 />
+      <h1>Hi</h1>
+      <new />
     </>
   );
 }

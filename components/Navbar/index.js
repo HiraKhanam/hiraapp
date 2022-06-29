@@ -159,15 +159,30 @@ export default function index() {
         </ul> */}
         {/* LINK IS ONE WAY BUT THE OTHER WAY IS ROUTER */}
         <ul className="flex items-center justify-center gap-x-4">
-          <li onClick={() => Router.push("/")} className="cursor-pointer font-bold">
+          <li
+            onClick={() => Router.push("/")}
+            className="cursor-pointer font-bold"
+          >
             Page 1
           </li>
 
-          <li onClick={() => Router.push("/Home")} className="cursor-pointer font-bold">
+          <li
+            onClick={() => Router.push("/Home")}
+            className="cursor-pointer font-bold"
+          >
             Page 2
           </li>
-          <li onClick={() => Router.push("/Practice")} className="cursor-pointer font-bold">
+          <li
+            onClick={() => Router.push("/Practice")}
+            className="cursor-pointer font-bold"
+          >
             Page 3
+          </li>
+          <li
+            onClick={() => Router.push("/Form")}
+            className="cursor-pointer font-bold"
+          >
+            Page 4
           </li>
         </ul>
       </nav>
