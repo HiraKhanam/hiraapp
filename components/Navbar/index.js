@@ -184,6 +184,12 @@ export default function index() {
           >
             Page 4
           </li>
+          <li
+            onClick={() => Router.push("/Formnew")}
+            className="cursor-pointer font-bold"
+          >
+            Page 5
+          </li>
         </ul>
       </nav>
     </>
