@@ -73,16 +73,9 @@ export default function Form() {
       Province: "",
       zip: "",
     });
-  };
-  useEffect(() => {
     localStorage.setItem("items", JSON.stringify(contactInfo));
-  }, [contactInfo]);
-  useEffect(() => {
-    const items = JSON.parse(localStorage.getItem("items"));
-    if (items) {
-      setContactInfo(items);
-    }
-  }, []);
+  };
+
   return (
     <div>
       <form
