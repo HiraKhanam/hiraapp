@@ -190,6 +190,18 @@ export default function index() {
           >
             Page 5
           </li>
+          <li
+            onClick={() => Router.push("/Api")}
+            className="cursor-pointer font-bold"
+          >
+            Page 6
+          </li>
+          <li
+            onClick={() => Router.push("/api1")}
+            className="cursor-pointer font-bold"
+          >
+            Page 7
+          </li>
         </ul>
       </nav>
     </>
