@@ -197,7 +197,7 @@ export default function index() {
             Page 6
           </li>
           <li
-            onClick={() => Router.push("/api1")}
+            onClick={() => Router.push("/ApiCall/api1")}
             className="cursor-pointer font-bold"
           >
             Page 7
