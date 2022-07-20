@@ -226,7 +226,6 @@ export default function index() {
             </div>
           </div>
         </div>
-        <P>hello</P>
       </div>
     </>
   );
