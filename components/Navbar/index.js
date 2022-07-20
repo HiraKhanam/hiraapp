@@ -202,6 +202,12 @@ export default function index() {
           >
             Page 7
           </li>
+          <li
+            onClick={() => Router.push("/firstapp")}
+            className="cursor-pointer font-bold"
+          >
+            Page 8
+          </li>
         </ul>
       </nav>
     </>
